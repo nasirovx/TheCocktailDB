@@ -1,0 +1,1 @@
+import PopularIngredients from "./Popular-ingredients";

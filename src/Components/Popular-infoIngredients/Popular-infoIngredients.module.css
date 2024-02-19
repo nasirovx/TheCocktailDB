@@ -1,0 +1,90 @@
+.content {
+    display: flex;
+    gap: 20px;
+    padding: 30px 0;
+}
+.title {
+    text-align: center;
+    color: #fff;
+}
+.content_title {
+    width: 418px;
+    height: 418px;
+}
+.content_title img {
+    width: 100%;
+    height: 100%;
+}
+.images_title {
+    width: 70%;
+    font-family: "Open Sans", sans-serif;
+}
+
+.images_title h2     {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 40px;
+    font-family: "Open Sans", sans-serif;
+}   
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+}
+.images_item {
+    width: 239px;
+    height: 239px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    color: #a4a4a4;
+    cursor: pointer;
+    font-family: "Open Sans", sans-serif;
+}
+.item {
+    width: 191px;
+    height: 191px;
+}
+.item img {
+    width: 100%;
+    height: 100%;
+}
+.images_item p{
+    margin-top: 3px;
+    font-family: "Open Sans", sans-serif;
+}
+.images_item:hover{
+    color: orange;
+}
+.description{
+    margin-top: 50px;
+    width: 100%;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.description h3{
+    margin-bottom: 10px;
+    font-family: "Open Sans", sans-serif;
+
+}
+.description p{
+    width: 55%;
+    line-height: 24px;
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+}
+.alfavit h3{
+    text-align: center;
+    color: #fff;
+    padding: 20px 0;
+    font-family: "Open Sans", sans-serif;
+    font-weight:450;
+}
+.alfavit{
+    padding-top: 30px;
+}
